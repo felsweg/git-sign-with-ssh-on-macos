@@ -2,6 +2,10 @@
 
 _MacOS comes bundled with OpenSSH without the ability to create resident keys on a yubikey. In order for yubikey to be loaded via the ssh-agent, we require nix to be installed on the base system_
 
+**DISCLAIMER**
+
+The information given here is expressly provided "AS IS." FELSWEG MAKES NO WARRANTY OF ANY KIND, EXPRESS, IMPLIED, IN FACT OR ARISING BY OPERATION OF LAW, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTY OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT AND DATA ACCURACY. NIST NEITHER REPRESENTS NOR WARRANTS THAT THE OPERATION OF THE SOFTWARE WILL BE UNINTERRUPTED OR ERROR-FREE, OR THAT ANY DEFECTS WILL BE CORRECTED. NIST DOES NOT WARRANT OR MAKE ANY REPRESENTATIONS REGARDING THE USE OF THE SOFTWARE OR THE RESULTS THEREOF, INCLUDING BUT NOT LIMITED TO THE CORRECTNESS, ACCURACY, RELIABILITY, OR USEFULNESS OF THE SOFTWARE. 
+
 ## Environment
 
 Assuming `nix` is installed, you can run
@@ -124,3 +128,4 @@ Then after committed successfully, you can verify the signature.
 ```
 user@system-nix> git log --show-signature
 ```
+
